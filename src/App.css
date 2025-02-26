@@ -10,16 +10,22 @@ body {
   text-align: center;
 }
 
-.button {
+button {
   background-color: var(--in-n-out-red);
   color: var(--in-n-out-white);
   border: 2px solid var(--in-n-out-yellow);
   padding: 10px 20px;
   font-weight: bold;
   text-transform: uppercase;
+  margin-bottom: 10px;
 }
 
-.button:hover {
+.item-button {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+button:hover {
   background-color: var(--in-n-out-yellow);
   color: var(--in-n-out-red);
 }
